@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainDiv">
+        <h1>Stopwatch</h1>
+        <div class="main">
+            <div class="screen">
+                <h3>Clock</h3>
+                <div class="count">
+                    <h4>Hr</h4>
+                    <h2 id="hours">00</h2>
+                </div>
+                <h2>:</h2>
+                <div class="count">
+                    <h4>Min</h4>
+                    <h2 id="minutes">00</h2>
+                </div>
+                <h2>:</h2>
+                <div class="count">
+                    <h4>Sec</h4>
+                    <h2 id="seconds">00</h2>
+                </div>
+                <div class="count">
+                    <h5 id="am"></h5>
+                </div>
+            </div>
+            <hr>
+            <div class="screen">
+                <h3>Stopwatch</h3>
+                <button class="butn3" onclick="start()" id="btnStart">Start</button>
+                <button class="butn5" onclick="stop()" id="btnStop">Stop</button>
+                <div class="count">
+                    <h4>Hr</h4>
+                    <h2 id="hrs">00</h2>
+                </div>
+                <h2>:</h2>
+                <div class="count">
+                    <h4>Min</h4>
+                    <h2 id="min">00</h2>
+                </div>
+                <h2>:</h2>
+                <div class="count">
+                    <h4>Sec</h4>
+                    <h2 id="sec">00</h2>
+                </div>
+                <h2>:</h2>
+                <div class="count">
+                    <h4>MSec</h4>
+                    <h2 id="mili">00</h2>
+                </div>
+                <button class="butn4" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
